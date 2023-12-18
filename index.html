@@ -3,50 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
+    <title>Mi Portafolio</title>
     <style>
+        /* Reset de Estilos */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #333;
+    color: #555;
+}
+
+/* Estilos Adicionales según Necesidades */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    font-weight: bold;
+}
+
+h3 {
+    color: #333;
+}
+
+/* Estilos para Enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            text-align: center;
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            line-height: 1.6;
         }
-
-        header, footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
+        header, section, footer {
+            margin-bottom: 30px;
         }
-
-        main {
-            margin-top: 20px;
+        h1, h2 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        p {
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-
     <header>
-        <h1>Mi Página Web</h1>
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador Web</p>
     </header>
 
-    <main>
-        <section>
-            <h2>Sobre Mí</h2>
-            <p>Bienvenido a mi primera página web. Soy [Tu Nombre] y esto es un ejemplo de página web simple.</p>
-        </section>
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>
+            ¡Hola! Soy [Tu Nombre], un apasionado desarrollador web con experiencia en [tecnologías específicas]. Nací y crecí en [tu ciudad], y actualmente vivo en [tu ubicación actual].
+        </p>
+        <p>
+            Mi objetivo es crear experiencias web atractivas y funcionales. Estoy comprometido/a a aprender continuamente y mantenerme actualizado/a con las últimas tecnologías.
+        </p>
+    </section>
 
-        <section>
-            <h2>Mis Hobbies</h2>
-            <ul>
-                <li>Programación</li>
-                <li>Leer</li>
-                <li>Deportes</li>
-            </ul>
-        </section>
-    </main>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git</li>
+            <!-- Agrega más habilidades según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <ul>
+            <li>
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <!-- Agrega más proyectos según sea necesario -->
+        </ul>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Mi Página Web</p>
+        <p>Contacto: tu@email.com | LinkedIn: linkedin.com/in/tuusuario | GitHub: github.com/tuusuario</p>
     </footer>
-
 </body>
 </html>
